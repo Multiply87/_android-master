@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Вам придёт пароль, введите его"
+        android:textAlignment="center"
+        android:textColor="@color/black"></TextView>
+
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="kolodiazhniy.aleksandr@privatbank.ua"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:id="@+id/et_gmail_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Введите пароль"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:maxLength="8"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK"></Button>
+
+        <Button
+            android:id="@+id/b_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Отмена"></Button>
+    </LinearLayout>
+
+</LinearLayout>

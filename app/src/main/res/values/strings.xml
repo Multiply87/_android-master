@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrivatChat</string>
+    <string name="title">PrivatChat</string>
+    <string name="login"><i>Введите логин</i></string>
+    <string name="password"><i>Введите пароль</i></string>
+    <string name="search">Войти</string>
+    <string name="error_message">Ошибка! Попробуйте ещё раз.</string>
+</resources>
